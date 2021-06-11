@@ -59,9 +59,9 @@ def judgefunction(s1,s2):
             print("can't go to the array[n-1]")
         # m>1,有正偏移量，继续调用函数本身
         else:
-                s1=s2
-                s2+=function(s1,s2)
-                return judgefunction(s1,s2)
+            s1=s2
+            s2+=function(s1,s2)
+            return judgefunction(s1,s2)
 
 s1=0
 s2=dict1[0]
